@@ -1,7 +1,0 @@
-<suite name="softwaretestingmaterial">
-	<test name="testngTest">
-		<classes>
-			<class name="com.selenium.PageObjectProject.testscripts.TestScript1" />
-		</classes>
-	</test>
-</suite>
