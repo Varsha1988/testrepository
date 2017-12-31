@@ -6,6 +6,9 @@ import com.selenium.PageObjectProject.pagelibrary.Login;
 import com.selenium.PageObjectProject.testbase.testBase;
 
 import org.testng.annotations.BeforeClass;
+
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
 
@@ -22,10 +25,11 @@ public class TestScript1 extends testBase{
 	  
 	  login.createemailadr(emailaddress);
 	  login.CreateEmailbutton();
+	  Thread.sleep(5000);
 	  
  }
   @BeforeClass
-  public void beforeClass() {
+  public void beforeClass() throws IOException {
 	  init();
   }
   
